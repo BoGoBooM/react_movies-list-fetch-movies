@@ -24,7 +24,7 @@ export const App = () => {
 
       setMovies(parsed);
     }
-  }, [movies]);
+  }, []);
 
   return (
     <div className="page">
